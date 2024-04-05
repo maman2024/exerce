@@ -1,0 +1,81 @@
+.head {
+	display: flex;
+	border: 20px;
+    justify-content: space-between;
+    margin-right: 100px;
+    position: sticky;
+}
+.logo>img {
+	height: 35px;
+	width:  35px;
+}
+.navflex {
+	display: flex;
+	gap: 35px ;
+	left: 60px;
+
+}
+.background {
+    background-image: url("image.jpeg") ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+.un {
+	background-color: rgb(199, 127, 199) ;
+	border-radius: 30px;
+    padding: 12px;
+    font-size: x-large;
+}
+.flexbox {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 200px;
+}
+
+.position {
+	padding-inline-end:2px ;
+}
+
+.center {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: aliceblue;
+	margin: 2px;
+}
+.taillediv {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	height: 400px;
+	align-items: center;
+	justify-content: center;
+	
+}
+.flexy {
+	margin: 20px;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+.div-inl {
+	display: inline-flex;
+}
+
+.div_b_inl {
+	display: flex;
+	justify-content: space-around;
+}
+
+.foot {
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+	
+}
